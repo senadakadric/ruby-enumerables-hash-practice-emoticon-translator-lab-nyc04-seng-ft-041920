@@ -46,15 +46,5 @@ def get_english_meaning(file_path, emoticon)
       end
     end
 
-  #binding.pry
-
-  # if language.to_s == japanese
-  #   return emoji_hash[:english]
-  # elsif language.to_s == english
-  #   return emoji_hash[:japanese]
-  # else
-  #   return "Sorry, we don't know that emoticon"
-  # end
-
 return "Sorry, that emoticon was not found"
 end
