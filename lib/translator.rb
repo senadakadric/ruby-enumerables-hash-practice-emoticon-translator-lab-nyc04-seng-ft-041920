@@ -20,8 +20,9 @@ def load_library(file_path)
   parent_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path, emoticon)
   # code goes here
+
 
 end
 
@@ -36,8 +37,6 @@ def get_english_meaning(file_path, emoticon)
       #   return "Sorry, we don't know that emoticon"
       end
     end
-
-  return "Sorry, we don't know that emoticon"
 
   #binding.pry
 
