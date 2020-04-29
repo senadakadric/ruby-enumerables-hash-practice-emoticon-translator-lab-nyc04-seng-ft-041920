@@ -32,7 +32,7 @@ def get_english_meaning(file_path, emoticon)
 
       if emojis_hashes[:japanese] == emoticon
         return key
-      elsif emojis_hashes[:japanese] != emoticon
+      else
         return "Sorry, we don't know that emoticon"
       end
 
