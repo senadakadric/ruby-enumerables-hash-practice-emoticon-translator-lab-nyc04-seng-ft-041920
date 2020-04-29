@@ -22,7 +22,15 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
-  load_library(file_path)
+  emoji_hash = load_library(file_path)
+
+  emoji_hash.each_pair do |key, emojis_hashes|
+
+    if emoticon == emojis_hashes[:english]
+    end
+  end
+
+
 
 end
 
