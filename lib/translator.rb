@@ -26,18 +26,22 @@ end
 
 def get_english_meaning(file_path, emoticon)
   load_library(file_path)
-  emoji_hash = load_library(file_path)
+    emoji_hash = load_library(file_path)
 
-  emoji_hash.each_pair do |key, emojis_hashes|
+    emoji_hash.each_pair do |key, emojis_hashes|
 
-    emojis_hashes.each_pair do |language, emoji|
+      if emojis_hashes[:japanese] == emoticon
+        return emojis_hashes[:english]
+      end
 
-
+      # emojis_hashes.each_pair do |language, emoji|
+      #
+      # if emoji == emoticon
+      #   # return the other language????
+      #
+      # end
 
     end
-
-  end
-
 
   #binding.pry
 
