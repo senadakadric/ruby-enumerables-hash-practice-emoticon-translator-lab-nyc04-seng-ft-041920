@@ -34,7 +34,7 @@ def get_english_meaning(file_path, emoticon)
         return emojis_hash[key]
       end
 
-
+      binding.pry
     end
 
   #binding.pry
