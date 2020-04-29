@@ -31,15 +31,9 @@ def get_english_meaning(file_path, emoticon)
     emoji_hash.each_pair do |key, emojis_hashes|
 
       if emojis_hashes[:japanese] == emoticon
-        return emojis_hashes[key]
+        return emojis_hash[key]
       end
 
-      # emojis_hashes.each_pair do |language, emoji|
-      #
-      # if emoji == emoticon
-      #   # return the other language????
-      #
-      # end
 
     end
 
